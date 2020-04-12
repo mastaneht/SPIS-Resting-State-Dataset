@@ -31,7 +31,7 @@ of Biomedical and Health Informatics.
 
 File format:
 All files are saved as the .mat format using Matlab Version 7.3.
-Sampling rate: 2,048 Hz
+The raw data in this file has been downsampled to 256 Hz from the original sampling rate of 2,048 Hz.
 Channels 1 to 64 correspond to the monopolar EEG channels using the following channel names:
 channelList = 
 {'Fp1';'AF7';'AF3';'F1';'F3';'F5';'F7';'FT7';'FC5';'FC3';'FC1';'C1';'C3';'C5';'T7';'TP7';'CP5';'CP3';'CP1';'P1';'P3';'P5';'P7';.
@@ -42,4 +42,3 @@ channelList =
 Channels 65 to 67: Three surface EOG electrodes connected to the outer corners of the eyes and middle of the eyebrows.
 Channel 68: The trigge channel. 
 trigger values = 200 correspond to the eyes-open (EO) and trigger values = 220 correspond to the eyes-closed (EC) states.
-The dataset only contains the raw data without any filtering or pre-processing.
