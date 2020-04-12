@@ -3,11 +3,12 @@ A Multimodal Dataset with EEG and forehead EOG for Resting-State analysis.
 This dataset is a subset of SPIS Resting-State EEG Dataset.
 
 Copyright:
-Mastaneh Torkamani-Azar and Mujdat Cetin
-Signal Processing and Information Systems (SPIS) Laboratory
-Faculty of Engineering and Natural sciences
+Mastaneh Torkamani-Azar and Mujdat Cetin 
+Signal Processing and Information Systems (SPIS) Laboratory 
+Faculty of Engineering and Natural Sciences 
 Sabanci University 
 Istanbul 34956, Turkey
+
 
 If you use SPIS Resting-State Dataset in your research, please cite the following papers
 M. Torkamani-Azar, S. Demir Kanik, S. Aydin and M. Cetin, "Prediction of Reaction Time and Vigilance Variability from 
