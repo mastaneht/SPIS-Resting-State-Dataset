@@ -21,11 +21,10 @@ M. Torkamani-Azar, S. Demir Kanik, S. Aydin and M. Cetin, "Prediction of Reactio
 Spatio-Spectral Features of Resting-State EEG in a Long Sustained Attention Task," in IEEE Journal of Biomedical and Health 
 Informatics. DOI: 10.1109/JBHI.2020.2980056. https://ieeexplore.ieee.org/document/9034192
 
-If you have any questions about this dataset, please kindly contact Mastaneh Torkamani Azar (mastaneh@sabanciuniv.edu) or 
-Mujdat Cetin (mujdat.cetin@rochester.edu).
+If you have any questions about this dataset, please kindly contact Mastaneh Torkamani Azar (mastaneh@sabanciuniv.edu) or Prof. Mujdat Cetin (mujdat.cetin@rochester.edu).
 http://labs.sabanciuniv.edu/spis/
 
-Data Desrcitptions:
+Data Descritption:
 
 These 10 datasets were recorded prior to a 105-minute session of Sustained Attention to Response Task with fixed-sequence and 
 varying ISIs.
@@ -48,6 +47,7 @@ All files are saved as the .mat format using Matlab Version 7.3.
 The raw data in this file has been downsampled to 256 Hz from the original sampling rate of 2,048 Hz.
 
 Channels 1 to 64 correspond to the monopolar EEG channels using the following channel names:
+
 channelList = 
 {'Fp1';'AF7';'AF3';'F1';'F3';'F5';'F7';'FT7';'FC5';'FC3';'FC1';'C1';'C3';'C5';'T7';'TP7';'CP5';'CP3';'CP1';'P1';'P3';'P5';'P7';.
 ..
