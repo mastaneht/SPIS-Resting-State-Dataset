@@ -15,7 +15,7 @@ Sabanci University
 
 Istanbul 34956, Turkey
 
-If you use SPIS Resting-State Dataset in your research, please cite the following papers:
+If you use SPIS Resting-State Dataset in your research, please cite the following paper:
 
 M. Torkamani-Azar, S. Demir Kanik, S. Aydin and M. Cetin, "Prediction of Reaction Time and Vigilance Variability from 
 Spatio-Spectral Features of Resting-State EEG in a Long Sustained Attention Task," in IEEE Journal of Biomedical and Health 
