@@ -24,7 +24,7 @@ Informatics. DOI: 10.1109/JBHI.2020.2980056. https://ieeexplore.ieee.org/documen
 If you have any questions about this dataset, please kindly contact Mastaneh Torkamani Azar (mastaneh@sabanciuniv.edu) or Prof. Mujdat Cetin (mujdat.cetin@rochester.edu).
 http://labs.sabanciuniv.edu/spis/
 
-Data Descritption:
+Data Description:
 
 These 10 datasets were recorded prior to a 105-minute session of Sustained Attention to Response Task with fixed-sequence and 
 varying ISIs.
