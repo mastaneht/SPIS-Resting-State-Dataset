@@ -19,7 +19,7 @@ If you use SPIS Resting-State Dataset in your research, please cite the followin
 
 M. Torkamani-Azar, S. D. Kanik, S. Aydin and M. Cetin, "Prediction of Reaction Time and Vigilance Variability From Spatio-Spectral Features of Resting-State EEG in a Long Sustained Attention Task," in IEEE Journal of Biomedical and Health Informatics, vol. 24, no. 9, pp. 2550-2558, Sept. 2020, doi: 10.1109/JBHI.2020.2980056. https://ieeexplore.ieee.org/document/9034192
 
-If you have any questions about this dataset, please kindly contact Mastaneh Torkamani Azar (mastaneh@sabanciuniv.edu) or Prof. Mujdat Cetin (mujdat.cetin@rochester.edu).
+If you have any questions about this dataset, please kindly contact Mastaneh Torkamani Azar (mastaneh@sabanciuniv.edu, mastaneh.torkamani@uef.fi) or Prof. Mujdat Cetin (mujdat.cetin@rochester.edu).
 http://labs.sabanciuniv.edu/spis/
 
 Data Description:
@@ -40,7 +40,7 @@ of Biomedical and Health Informatics.
 
 File format:
 
-All files are saved as the .mat format using Matlab Version 7.3.
+All files are saved as the .mat format using Matlab Version 7.3. The channe location is also provided.
 
 The raw data in this file has been downsampled to 256 Hz from the original sampling rate of 2,048 Hz.
 
