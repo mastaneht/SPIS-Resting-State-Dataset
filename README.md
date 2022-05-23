@@ -19,10 +19,9 @@ If you use SPIS Resting-State Dataset in your research, please cite the followin
 
 M. Torkamani-Azar, S. D. Kanik, S. Aydin and M. Cetin, "Prediction of Reaction Time and Vigilance Variability From Spatio-Spectral Features of Resting-State EEG in a Long Sustained Attention Task," in IEEE Journal of Biomedical and Health Informatics, vol. 24, no. 9, pp. 2550-2558, Sept. 2020, doi: 10.1109/JBHI.2020.2980056. https://ieeexplore.ieee.org/document/9034192
 
-If you have any questions about this dataset, please kindly contact Mastaneh Torkamani Azar (mastaneh.torkamani@uef.fi) or Prof. Mujdat Cetin (mujdat.cetin@rochester.edu).
-http://labs.sabanciuniv.edu/spis/
+If you have any questions about this dataset, please kindly contact Dr. Mastaneh Torkamani Azar (mastaneh.torkamani@uef.fi, She/Her) or Prof. Mujdat Cetin (mujdat.cetin@rochester.edu, He/Him). http://labs.sabanciuniv.edu/spis/
 
-Data Description:
+## Experiment description
 
 These 10 datasets were recorded prior to a 105-minute session of Sustained Attention to Response Task with fixed-sequence and 
 varying ISIs.
@@ -34,11 +33,7 @@ Electrode Placement System.
 
 Experiments were conducted in the early afternoon to induce drowsiness in the already idled brain networks.
 
-More explanation is provided in M. Torkamani-Azar, S. Demir Kanik, S. Aydin and M. Cetin, "Prediction of Reaction Time and 
-Vigilance Variability from Spatio-Spectral Features of Resting-State EEG in a Long Sustained Attention Task," in IEEE Journal 
-of Biomedical and Health Informatics.
-
-File format:
+## File format
 
 All files are saved as the .mat format using Matlab Version 7.3. The channe location is also provided.
 
@@ -58,3 +53,12 @@ Channels 65 to 67: Three surface EOG electrodes connected to the outer corners o
 Channel 68: The trigge channel. 
 
 trigger values = 200 correspond to the eyes-open (EO) and trigger values = 220 correspond to the eyes-closed (EC) states.
+
+## Channel amplitudes
+
+The data was collected using a 64-channel Biosemi Active 2 amplifier and the resulting raw signals are measured in microvolts. You can also adjust the channels for their gain if it is important for your calculations. A very good reference on Biosemi channel characteristics can be found at https://www.fieldtriptoolbox.org/getting_started/biosemi/.
+In addition, quoting from https://www.biosemi.com/faq/cms&drl.htm, "The signals on file are the voltages between each electrode and CMS". In other words, raw voltages are not exactly measured with respect to a ground or reference electrode but with respect to a common mode sense electrode. Both CMS and DRL are located on the parietooccipital area. You can check the layout from this link: https://www.biosemi.com/pics/cap_64_layout_medium.jpg.
+
+## Preprocessing, denoising, and artifact removal:
+
+Please refer to the methods in the source paper or articles that have developed artifact removal technique using this dataset: https://scholar.google.com/scholar?cites=2250172710784316618&as_sdt=2005&sciodt=0,5&hl=en 
